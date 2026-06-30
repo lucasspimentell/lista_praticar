@@ -1,0 +1,67 @@
+
+.editarContainer{
+    background-color: #5494fa;
+    text-align: center;
+    width: 90%;
+    max-width: 365px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+h1{
+    color: aliceblue;
+}
+
+.editarContainer form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+.editarContainer input{
+    width: 76%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.botoes{
+    
+    width: 80%;
+    display: flex;
+    gap: 5px;
+    
+}
+
+.editarContainer button{
+    flex: 1;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    color: aliceblue;
+    border:solid 1px rgba(91, 89, 89, 0.562);
+    border-radius: 4px;
+}
+
+.add{
+background-color: #32ba7c;
+
+}
+
+.cancelar{
+    background-color: tomato;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
