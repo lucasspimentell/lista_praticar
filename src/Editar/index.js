@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link,useLocation,useNavigate } from "react-router-dom";
 import './editar.css'
-import Home from "../Home";
+
 
 
 function Editar() {
